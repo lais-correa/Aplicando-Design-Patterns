@@ -1,7 +1,7 @@
 from Veiculo import Veiculo
 
 class Carro(Veiculo):
-    def __init__(self,marca, modelo, ano):
+    def __init__(self, marca, modelo, ano):
         self.__marca = marca
         self.__modelo = modelo
         self.__ano = ano
@@ -20,7 +20,7 @@ class Carro(Veiculo):
     
     def printVeiculo(self):
         print(f"""
-            A marca do que carro é: {self.__marca}
+            A marca do carro é: {self.__marca}
             O modelo é: {self.__modelo}
             O ano é: {self.__ano}
             A velocidade é: {self.velocidade} km/h""")
